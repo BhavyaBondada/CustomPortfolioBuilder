@@ -1,0 +1,123 @@
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: linear-gradient(135deg, #007BFF, #0056b3);
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+    letter-spacing: 1px;
+}
+
+main {
+    width: 90%;
+    max-width: 800px;
+    margin: 30px auto;
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+.input-section h2,
+.preview-section h2 {
+    color: #007BFF;
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin: 15px 0 5px;
+    font-weight: 600;
+    color: #333;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+    transition: border 0.3s;
+}
+
+input:focus, textarea:focus {
+    border-color: #007BFF;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0,123,255,0.3);
+}
+
+button {
+    padding: 12px 25px;
+    background: linear-gradient(135deg, #007BFF, #0056b3);
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background 0.3s, transform 0.2s;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+button:hover {
+    background: linear-gradient(135deg, #0056b3, #004080);
+    transform: scale(1.05);
+}
+
+.preview-section {
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    text-align: center;
+}
+
+#portfolio-preview img {
+    max-width: 150px;
+    border-radius: 50%;
+    margin: 15px 0;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+#portfolio-preview h1 {
+    color: #007BFF;
+    margin: 10px 0;
+}
+
+#portfolio-preview h2 {
+    color: #333;
+    margin: 15px 0 5px;
+}
+
+#portfolio-preview p {
+    font-size: 1rem;
+    color: #555;
+    margin: 10px 0 20px;
+}
+
+#portfolio-preview ul {
+    list-style: none;
+    padding: 0;
+}
+
+#portfolio-preview li {
+    background-color: #e9f2ff;
+    margin: 8px 0;
+    padding: 10px;
+    border-radius: 5px;
+    color: #007BFF;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}

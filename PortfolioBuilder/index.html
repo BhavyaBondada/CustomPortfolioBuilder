@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Portfolio Builder</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Custom Portfolio Builder</h1>
+    </header>
+
+    <main>
+        <section class="input-section">
+            <h2>Enter Your Details</h2>
+            <form id="portfolio-form">
+                
+                <label for="name">Name:</label>
+                <input type="text" id="name" placeholder="Enter your name">
+
+                <label for="about">About Me:</label>
+                <textarea id="about" placeholder="Write about yourself"></textarea>
+
+                <label for="skills">Skills (comma-separated):</label>
+                <input type="text" id="skills" placeholder="e.g., HTML, CSS, JavaScript">
+
+                <label for="projects">Projects (one per line):</label>
+                <textarea id="projects" placeholder="List your projects"></textarea>
+
+                <label for="photo">Upload Photo:</label>
+                <input type="file" id="photo" accept="image/*">
+
+                <button type="button" onclick="generatePortfolio()">Generate Portfolio</button>
+            </form>
+        </section>
+
+        <section class="preview-section">
+            <h2>Portfolio Preview</h2>
+            <div id="portfolio-preview"></div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
